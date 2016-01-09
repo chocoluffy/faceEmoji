@@ -20,3 +20,10 @@ cp /usr/local/Cellar/opencv3/3.1.0/lib/python2.7/site-packages/cv2.so /usr/local
 ```
 
 as discussed in [this post](https://github.com/Itseez/opencv/issues/5447). And That's all, hope you enjoyed using openCV!
+
+## Run the project
+cd to the folder, then did:
+```
+python face_detect.py IMG_0244.jpg facecascade.xml
+```
+you should receieve the result like "1 face found"
