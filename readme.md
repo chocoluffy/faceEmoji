@@ -26,4 +26,4 @@ cd to the folder, then did:
 ```
 python face_detect.py IMG_0244.jpg facecascade.xml
 ```
-you should receieve the result like "1 face found"
+you should receieve the result like "1 face found" and found a tear Emoji overlaid!
