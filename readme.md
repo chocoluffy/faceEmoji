@@ -26,4 +26,4 @@ cd to the folder, then did:
 ```
 python face_detect.py IMG_0244.jpg facecascade.xml
 ```
-you should receieve the result like "1 face found" and found a tear Emoji overlaid!
+you should receieve the result like "1 face found" and found a funny Emoji overlaid. The final result looks like this: ![project result](http://ww2.sinaimg.cn/large/c5ee78b5jw1f21qpw6q8oj20ki0b7wez.jpg)
