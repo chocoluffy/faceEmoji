@@ -13,7 +13,7 @@ ImportError: dlopen(./cv2.so, 2): Library not loaded: lib/libopencv_reg.3.0.dyli
 
 such unable to load some libraries, and that's due to  SIP (System Integrity Protection) introduced in El Capitan. Thus you will have to copy the folder `cv2.so` by yourself! which is critical to be able to load libraries later on. 
 
-For other part of installing, [this post](http://www.pyimagesearch.com/2015/06/15/install-opencv-3-0-and-python-2-7-on-osx/) is amazing! But if you are in Mac El Capitan, you will finally encounter a problem I mentioned above. To make your life eaiser, I recommend use such command to go over that:
+For other part of installing, if you are in Mac El Capitan, you will finally encounter a problem I mentioned above. To make your life eaiser, I recommend use such command to go over that:
 
 ```
 cp /usr/local/Cellar/opencv3/3.1.0/lib/python2.7/site-packages/cv2.so /usr/local/lib
